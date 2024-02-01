@@ -5,15 +5,18 @@
 - A database (Mongo, MySQL, Postgres , sqlite)  (ORM, ODM)
 
 ## A JavaScript Based Backend
-Data                    File                 Third Party(API)
+- Data                    
+- File                 
+- Third Party(API)
+
 
 Directory Structures --> 
-- A JS Runtime : NodeJS / Deno / Bun
+- A JS Runtime : NodeJS / Deno / Bun    -->
 packages.json               .env    (Readme, git, lint, prettier, etc.)
 
-- src
-index                   APP                                         constants
-(DB Connects)           (config, cookie, urlencode)                 (enums, DB-name)
+- src -->
+index (DB Connects),  APP  (config, cookie, urlencode),   constants(enums, DB-name)
+                         
 
 - DB
 - Models
