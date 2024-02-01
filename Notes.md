@@ -12,7 +12,7 @@
 
 Directory Structures --> 
 - A JS Runtime : NodeJS / Deno / Bun    -->
-packages.json               .env    (Readme, git, lint, prettier, etc.)
+packages.json,   .env    (Readme, git, lint, prettier, etc.)
 
 - src -->
 index (DB Connects),  APP  (config, cookie, urlencode),   constants(enums, DB-name)
